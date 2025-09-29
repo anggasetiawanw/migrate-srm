@@ -1,0 +1,33 @@
+import { Device } from "./interface";
+
+// === Device list ===
+export const deviceList: Device[] = [
+  { code: "MCN00001", machineNumber: "IMEI00001" },
+  { code: "MCN00002", machineNumber: "IME100002" },
+  { code: "MCN00003", machineNumber: "IME100003" },
+  { code: "MCN00004", machineNumber: "IME100004" },
+  { code: "MCN00005", machineNumber: "IME100005" },
+  { code: "MCN00006", machineNumber: "IME100006" },
+  { code: "MCN00007", machineNumber: "IME100007" },
+  { code: "MCN00008", machineNumber: "IME100008" },
+  { code: "MCN00009", machineNumber: "IME100009" },
+  { code: "MCN00010", machineNumber: "IME100010" },
+  { code: "MCN00011", machineNumber: "IME100011" },
+  { code: "MCN00012", machineNumber: "IME100012" },
+  { code: "MCN00013", machineNumber: "IME100013" },
+  { code: "MCN00014", machineNumber: "IME100014" },
+  { code: "MCN00015", machineNumber: "IME100015" },
+  { code: "MCN00016", machineNumber: "IME100016" },
+  { code: "MCN00017", machineNumber: "IME100017" },
+  { code: "MCN00018", machineNumber: "IME100018" },
+  { code: "MCN00019", machineNumber: "IME100019" },
+  { code: "MCN00020", machineNumber: "IME1000120" },
+  { code: "MCN00021", machineNumber: "IME100021" },
+  { code: "MCN00022", machineNumber: "IME100022" },
+  { code: "MCN00023", machineNumber: "IME100023" },
+  { code: "MCN00024", machineNumber: "IME100024" },
+  { code: "MCN00025", machineNumber: "IME100025" },
+  { code: "MCN00026", machineNumber: "IME100026" },
+  { code: "MCN00027", machineNumber: "IME100027" },
+  { code: "MCN00028", machineNumber: "IME100028" },
+];
