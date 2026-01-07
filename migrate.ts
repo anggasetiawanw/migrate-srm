@@ -8,7 +8,7 @@ import { deviceList } from "./list_device";
 // === Config ===
 const ES_INDEX = "history";
 const RANGE_START = "2024-05-01T00:00:00Z"; // migrate from May 2024
-const RANGE_END = new Date().toISOString();
+const RANGE_END = "2025-12-31T23:59:59Z"; // to Dec 2025
 const BATCH_SIZE = 5000;
 const checkpointFile = "checkpoint.json";
 
@@ -16,11 +16,11 @@ const checkpointFile = "checkpoint.json";
 const esClient = new ESClient({ node: "http://103.186.0.213:9200" });
 
 const pgPool = new Pool({
-  user: "srm",
+  user: "srm_user",
   host: "199.241.138.82",
-  database: "srmdb",
-  password: "54cR9rVxcl0EZgrp",
-  port: 5433,
+  database: "srm_db",
+  password: "P@ssw0rd1234#",
+  port: 5432,
 });
 
 // === Checkpoint helpers ===

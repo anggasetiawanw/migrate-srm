@@ -1,4 +1,3 @@
-
 // === Interfaces ===
 
 export interface Device {
@@ -18,4 +17,19 @@ export interface HistoryEntity {
   location?: string;
   plant?: string;
   createdAt?: Date;
+}
+
+export interface DeviceInnovate {
+  id: string;
+  code: string;
+  machineNumber: string;
+  location: string;
+  plant: string;
+  status: string;
+  startDate: string;
+  endDate: string;
+  createdAt: string;
+  createdBy: string;
+  updatedAt: string;
+  updatedBy: string;
 }
